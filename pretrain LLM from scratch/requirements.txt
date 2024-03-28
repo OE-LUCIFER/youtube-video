@@ -1,0 +1,5 @@
+datasets
+trl
+accelerate
+transformers[torch]
+bitsandbytes
