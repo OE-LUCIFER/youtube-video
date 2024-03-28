@@ -1,6 +1,6 @@
 # Pretraining Large Language Model (LLM) from Scratch
 
-This repository contains code for pretraining a Large Language Model (LLM) from scratch.
+This folder contains code for pretraining a Large Language Model (LLM) from scratch.
 
 ## Overview
 
