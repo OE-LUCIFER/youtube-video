@@ -4,7 +4,7 @@ from webscout.AI import OPENGPT
 
 def main() -> None:
     # Initialize OPENGPT with conversation mode, max tokens, and timeout
-    Databuilder = OPENGPT(is_conversation=False, max_tokens=8000, timeout=30)
+    Databuilder = OPENGPT(is_conversation=False, max_tokens=8000, timeout=30, assistant_id="bca37014-6f97-4f2b-8928-81ea8d478d88")
 
     print("Starting the databuilder. Type '/bye' to end the conversation.")
 
