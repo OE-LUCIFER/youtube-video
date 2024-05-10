@@ -4,8 +4,6 @@ from dotenv import load_dotenv
 from groq import Groq
 from webscout import DeepWEBS
 
-# Load environment variables from .env file
-load_dotenv()
 
 def generate(user_prompt, system_prompt="Be Short and Concise", prints=False) -> str:
     """
@@ -65,7 +63,7 @@ def generate(user_prompt, system_prompt="Be Short and Concise", prints=False) ->
         {"role": "user", "content": user_prompt}
     ]
 
-    api_key = "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"
+    api_key = "ADD-OWN-KEY"
 
     # Initial response from Groq
     response = Groq(api_key=api_key).chat.completions.create(
