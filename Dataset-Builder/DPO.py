@@ -11,7 +11,7 @@ def main() -> None:
         None
     """
     # Initialize OPENGPT with conversation mode, max tokens, and timeout
-    opengpt_instance = OPENGPT(is_conversation=False, max_tokens=8000, timeout=30)
+    opengpt_instance = OPENGPT(is_conversation=False, max_tokens=8000, timeout=30, assistant_id="bca37014-6f97-4f2b-8928-81ea8d478d88")
 
     print("Converting dataset to DPO dataset.")
 
