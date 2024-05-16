@@ -1,6 +1,6 @@
 from typing import List, Dict, Union
 import json
-from webscout.AI import OPENGPT
+from webscout import OPENGPT
 
 def main() -> None:
     # Initialize OPENGPT with conversation mode, max tokens, and timeout
