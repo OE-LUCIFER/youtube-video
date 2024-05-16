@@ -1,7 +1,7 @@
 from typing import List, Dict, Union
 import json
 import time  # Import the time module for adding a delay
-from webscout.AI import OPENGPT
+from webscout import OPENGPT
 
 def main() -> None:
     """
