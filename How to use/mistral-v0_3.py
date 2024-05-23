@@ -3,7 +3,8 @@ set CMAKE_ARGS=-DLLAMA_CUBLAS=on
 
 set FORCE_CMAKE=1
 
-pip install llama-cpp-python
+pip install -U 'webscout[local]'
+pip install -U huggingface_hub
 """
 from webscout.Local.utils import download_model
 from webscout.Local.model import Model
