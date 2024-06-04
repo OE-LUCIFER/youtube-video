@@ -1,3 +1,4 @@
+# pip install webscout==3.2
 import time
 import uuid
 from typing import Dict, Any, Optional, AsyncGenerator
@@ -75,6 +76,7 @@ class TaskExecutor:
             "chatgptuk": webscout.ChatGPTUK,
             "poe": webscout.POE,
             "basedgpt": webscout.BasedGPT,
+            "deepseek": webscout.DeepSeek,
         }
 
         # Initialize Rawdog if enabled
